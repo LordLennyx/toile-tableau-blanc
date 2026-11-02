@@ -1,0 +1,19 @@
+{
+ "titre": "<em>Toile</em>, tableau blanc",
+ "type": "Tableau blanc collaboratif · temps réel",
+ "sous_titre": "Crayon, formes, flèches, post-it, modèles d'atelier, curseurs de l'équipe, export PNG",
+ "couleur": "#2f5bea",
+ "graine": 33,
+ "voix": [
+  [3.3, "Toile, un tableau blanc collaboratif pour les ateliers d'équipe,"],
+  [8.5, "on dessine, on colle des post-it, l'équipe arrive et écrit en même temps,"],
+  [16.0, "et un modèle de rétrospective se pose en un clic, prêt à exporter."]
+ ],
+ "etapes": [
+  {"t": "wait", "ms": 1200},
+  {"t": "eval", "js": "window.__equipe()", "pause": 5600},
+  {"t": "eval", "js": "window.__modele('retro')", "pause": 2700},
+  {"t": "eval", "js": "window.__modele('journey')", "pause": 2700},
+  {"t": "eval", "js": "document.getElementById('zo').click();document.getElementById('zo').click()", "pause": 1400}
+ ]
+}

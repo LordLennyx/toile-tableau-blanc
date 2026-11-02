@@ -1,0 +1,17 @@
+{
+ "repo": "toile-tableau-blanc",
+ "nom": "Toile",
+ "type": "Tableau blanc collaboratif",
+ "categorie": "Applications web",
+ "resume": "Tableau blanc en ligne pour les ateliers d'équipe : dessin à main levée lissé, surligneur, rectangles, ellipses, flèches courbes, post-it manuscrits, texte libre, sélection et déplacement, gomme, annuler et rétablir, zoom et déplacement infinis. Les onglets ouverts se synchronisent en temps réel avec curseurs nommés, et des modèles prêts à l'emploi lancent une rétrospective, un brainstorming ou un parcours client.",
+ "fonctions": [
+  "Outils de dessin : crayon lissé, surligneur, rectangle, ellipse, flèche courbe, texte, gomme",
+  "Post-it manuscrits en six couleurs, signés par leur auteur, éditables au double clic",
+  "Toile infinie : zoom à la molette ou au pincement, déplacement à la main ou à la barre d'espace",
+  "Collaboration en temps réel entre onglets (BroadcastChannel) avec curseurs nommés",
+  "Modèles d'atelier : rétrospective, brainstorming, parcours client",
+  "Historique annuler/rétablir, raccourcis clavier, sauvegarde locale, export PNG haute définition"
+ ],
+ "stack": "HTML, CSS, JavaScript natif, SVG, BroadcastChannel",
+ "extra": {"Typographies": "Kalam, Inter", "Évolutions possibles": "synchronisation multi-appareils par WebSocket ou CRDT (Yjs), votes à points, minuteur d'atelier, import d'images et de PDF"}
+}
